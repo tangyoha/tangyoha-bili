@@ -1,0 +1,1 @@
+docker build --build-arg HTTP_PROXY=http://192.168.0.104:10811 --build-arg HTTPS_PROXY=http://192.168.0.104:10811 -t flask-file-upload-app .
