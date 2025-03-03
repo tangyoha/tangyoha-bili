@@ -85,7 +85,7 @@ def upload_file():
             cursor.execute("INSERT INTO file_mappings (file_hash, file_uuid, file_type, relative_path) VALUES (?, ?, ?, ?)", 
                            (file_hash, file_id, file_type, relative_path))
 
-        file_url = f"https://{API_HOST}:{API_PORT}/{file_type}/{file_id}"
+        file_url = f"{API_HOST}:{API_PORT}/{file_type}/{file_id}"
         file_urls.append(file_url)
 
     return jsonify(file_urls), 200
