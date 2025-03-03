@@ -151,7 +151,7 @@ source venv/bin/activate
 
 2. 安装所需的 Python 包：
 ```bash
-pip install aiohttp asyncio
+pip3 install -r requirements.txt -i https://pypi.doubanio.com/simple/
 ```
 
 ### 使用说明
