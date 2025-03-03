@@ -9,5 +9,5 @@ services:
       - ./:/app/
     environment:
       #- FLASK_ENV=development
-      - API_HOST=localhost
+      - API_HOST=http://localhost
       - API_PORT=8089
