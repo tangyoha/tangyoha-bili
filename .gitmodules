@@ -1,0 +1,3 @@
+[submodule "dify/chat-portal-hub"]
+	path = dify/chat-portal-hub
+	url = git@github.com:tangyoha/chat-portal-hub.git
