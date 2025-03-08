@@ -5,6 +5,8 @@
 ### 侧边栏二次开发
 [视频地址](https://www.bilibili.com/video/BV1xZ9bYNEKf)
 
+[项目地址](https://github.com/tangyoha/dify)
+
 后续补充详细教学视频
 
 ### markdown图片上传
