@@ -30,6 +30,12 @@
 
 [视频地址](https://www.bilibili.com/video/BV1bTRWYZEyj)
 
+### 高德 MCP dify测试
+
+[文档](./dify/mcp/map_mcp/README.md)
+
+[视频地址](https://www.bilibili.com/video/BV1LaZ6Y4Euw/)
+
 ### 零散知识库入库问题
 
 ### 冗余知识库导致召回的内容大于top 10，导致结果不准确问题
