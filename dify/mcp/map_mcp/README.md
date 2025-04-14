@@ -19,7 +19,7 @@
 
 ```dockerfile
 # 使用指定的基础镜像
-FROM langgenius/dify-plugin-daemon:0.0.6-local
+FROM langgenius/dify-plugin-daemon:0.0.7-local
 
 # 安装 Node.js 环境（这里选择 Node.js 22 版本）
 RUN curl -fsSL https://deb.nodesource.com/setup_22.x | bash -
@@ -88,9 +88,7 @@ docker-compose up -d
 
 ### 3.3 安装dify mcp client
 
-下载打开插件安装[dify-mcp-client.difypkg](./dify-mcp-client.difypkg)
-
-
+dify选择 从github 安装 https://github.com/3dify-project/dify-mcp-client 选择 v0.0.4版本
 
 ------
 
